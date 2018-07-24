@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- This assignment explains the weightage of each selector and how they are overridden -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Specificity Example</title>
+
+    <!-- Viewport is to make the page responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Importing External CSS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="../external-stylesheet/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../external-stylesheet/third-party.css" />
+
+    <!-- Style sheet third-party.css will override the  styles.css as per the latest rule.
+         In this case body color should be red and h1 color should be blue as specified in third-party.css.
+         Since specificity of class is more than  the element hence the final color of the body will be blue
+         and the h1 color will be white as specified in styles.css even in case third-party.css overrides the 
+         styles.css.
+    -->
+
+</head>
+
+<body class="main" >
+    <header >
+            <h1 class="title">"Welcome to CSS3 Specificity"</h1>
+    </header>
+</body>
+</html>
