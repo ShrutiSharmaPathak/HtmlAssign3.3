@@ -1,0 +1,23 @@
+/* This is external style sheet to be used in any html page*/
+
+body
+{
+    background:blue; /* Back ground color of the page body is set to blue*/
+}
+
+header h1
+{
+    color:white; /* Text color in header 1 is set  to be white*/
+}
+
+/* class selector */
+
+.title
+{
+ color:white;   /* style all elements having class="title" */
+} 
+
+.main
+{
+   background-color:blue;  /* style all elements having class="main" */
+}
